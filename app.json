@@ -1,6 +1,7 @@
 {
   "expo": {
-    "name": "qrcode-scanner-react-native",
+    "owner": "aramaysm",
+    "name": "SCA-QR-Scanner",
     "slug": "qrcode-scanner-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -23,11 +24,20 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#FFFFFF",
+        "blockedPermissions": [
+          "android.permission.CAMERA"
+        ]
+      },
+      "package": "com.accesscontrolsecurity.scaqrcodescan",
+      "versionCode": 1
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png"      
+      
     }
+    
   }
 }
+
+
